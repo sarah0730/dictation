@@ -340,11 +340,15 @@ function speak(text, opts){
   synth.cancel();
   let u = new SpeechSynthesisUtterance(text);
   let lang = opts.lang || curLang;
-  // 优先用用户手动选择的声音
+  // 优先用用户手动选择的声音，否则自动选 Samantha
   let v = null;
+  var allV = synth.getVoices();
   if(S.voiceURI){
-    var all = synth.getVoices();
-    v = all.find(x=>x.voiceURI===S.voiceURI);
+    v = allV.find(x=>x.voiceURI===S.voiceURI);
+  }
+  if(!v){
+    // 自动找 Samantha（iOS/Android 女声）
+    v = allV.find(x=>/samantha/i.test(x.name));
   }
   if(!v) v = pickVoice(lang);
   if(v){ u.voice=v; u.lang=v.lang; }
@@ -432,7 +436,15 @@ function renderHome(){
     c.onclick=()=>{ curBook=b; curUnits=[]; renderHome();
 // 延迟加载声音列表（iOS需要时间）
 setTimeout(loadVoiceList, 500);
-setTimeout(loadVoiceList, 1500); saveState(); };
+setTimeout(loadVoiceList, 1500);
+// 自动默认选 Samantha
+if(!S.voiceURI){
+  setTimeout(function(){
+    var vs = synth.getVoices();
+    var sam = vs.find(v=>/samantha/i.test(v.name));
+    if(sam){ S.voiceURI = sam.voiceURI; saveState(); loadVoiceList(); }
+  }, 800);
+} saveState(); };
     bc.appendChild(c);
   });
   renderUnits();
