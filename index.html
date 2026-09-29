@@ -308,12 +308,26 @@ function loadVoices(){ voices = synth.getVoices(); }
 loadVoices();
 if(synth.onvoiceschanged!==undefined) synth.onvoiceschanged=loadVoices;
 
+// 英语听力考试风格女声优先列表
+var FEMALE_VOICES = ['Samantha','Kate','Serena','Karen','Moira','Tessa','Fiona','Veena','Zoe','Ellie','Aaron'];
+function pickVoice(lang){
+  var pool = voices.filter(v=>v.lang===lang);
+  if(pool.length===0) pool = voices.filter(v=>v.lang.indexOf(lang.split('-')[0])===0);
+  if(pool.length===0) pool = voices.filter(v=>/^en/i.test(v.lang));
+  if(pool.length===0) return null;
+  // 优先选女声
+  for(var i=0;i<FEMALE_VOICES.length;i++){
+    var fv = pool.find(v=>v.name.indexOf(FEMALE_VOICES[i])>=0);
+    if(fv) return fv;
+  }
+  return pool[0];
+}
 function speak(text, opts){
   opts = opts||{};
   synth.cancel();
   let u = new SpeechSynthesisUtterance(text);
   let lang = opts.lang || curLang;
-  let v = voices.find(v=>v.lang===lang) || voices.find(v=>v.lang.indexOf(lang.split('-')[0])===0);
+  let v = pickVoice(lang);
   if(v) u.voice=v;
   u.lang = lang;
   u.rate = opts.rate || settings.rate;
@@ -341,7 +355,9 @@ function playSeq(seq, i){
 function speakCN(text){
   synth.cancel();
   let u = new SpeechSynthesisUtterance(text);
-  let v = voices.find(v=>/^zh/i.test(v.lang)) || synth.getVoices().find(v=>/^zh/i.test(v.lang));
+  let zhVoices = voices.filter(v=>/^zh/i.test(v.lang));
+  if(zhVoices.length===0) zhVoices = synth.getVoices().filter(v=>/^zh/i.test(v.lang));
+  let v = zhVoices.find(v=>/Ting|Mei|Sin|Tian|Li/i.test(v.name)) || zhVoices[0];
   if(v) u.voice=v; u.lang='zh-CN'; u.rate=0.9;
   synth.speak(u);
 }
