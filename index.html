@@ -173,8 +173,8 @@ select,input[type=number],input[type=range]{
       </div>
       <label>朗读语速 <span class="range-val" id="rate-val">0.8x</span></label>
       <input type="range" id="set-rate" min="0.5" max="1.2" step="0.1" value="0.8" oninput="setRange('rate',this.value,'rate-val','x')">
-      <label>每词朗读次数 <span class="range-val" id="repeat-val">2 遍</span></label>
-      <input type="range" id="set-repeat" min="1" max="3" step="1" value="2" oninput="setRange('repeat',this.value,'repeat-val',' 遍')">
+      <label>每词朗读次数 <span class="range-val" id="repeat-val">3 遍</span></label>
+      <input type="range" id="set-repeat" min="1" max="3" step="1" value="3" oninput="setRange('repeat',this.value,'repeat-val',' 遍')">
       <label>朗读间隔 <span class="range-val" id="interval-val">4 秒</span></label>
       <input type="range" id="set-interval" min="2" max="8" step="1" value="4" oninput="setRange('interval',this.value,'interval-val',' 秒')">
       <label>发音</label>
@@ -281,7 +281,7 @@ let curUnits = S.lastUnits || [];
 let curMode = 'four-priority';
 let curCount = 15;
 let curLang = S.lang || 'en-GB';
-let settings = S.settings || {cn:false, showCn:false, rate:0.8, repeat:2, interval:4, auto:true};
+let settings = S.settings || {cn:false, showCn:false, rate:0.8, repeat:3, interval:4, auto:true};
 let dictList = [];
 let dictIdx = 0;
 let synth = window.speechSynthesis;
@@ -308,19 +308,29 @@ function loadVoices(){ voices = synth.getVoices(); }
 loadVoices();
 if(synth.onvoiceschanged!==undefined) synth.onvoiceschanged=loadVoices;
 
-// 英语听力考试风格女声优先列表
-var FEMALE_VOICES = ['Samantha','Kate','Serena','Karen','Moira','Tessa','Fiona','Veena','Zoe','Ellie','Aaron'];
+// 英语听力考试风格女声优先列表（名字含这些关键词的优先选）
+var FEMALE_NAMES = ['Samantha','Kate','Serena','Karen','Moira','Tessa','Fiona','Veena','Zoe','Ellie','Victoria','Susan','Allison','Ava','Nora'];
+// 排除已知男声
+var MALE_NAMES = ['Daniel','Aaron','Alex','Fred','Oliver','Rishi','Tom','Arthur','Gordon','Nicky'];
 function pickVoice(lang){
-  var pool = voices.filter(v=>v.lang===lang);
-  if(pool.length===0) pool = voices.filter(v=>v.lang.indexOf(lang.split('-')[0])===0);
-  if(pool.length===0) pool = voices.filter(v=>/^en/i.test(v.lang));
+  // iOS 上 voices 可能还没加载，每次实时获取
+  var all = synth.getVoices();
+  if(all.length===0) all = voices;
+  if(all.length===0) return null;
+  var base = lang.split('-')[0];
+  // 按优先级筛选：精确lang > 语言前缀匹配 > 任意英语
+  var pool = all.filter(v=>v.lang===lang);
+  if(pool.length===0) pool = all.filter(v=>v.lang.indexOf(base)===0);
+  if(pool.length===0) pool = all.filter(v=>/^en/i.test(v.lang));
   if(pool.length===0) return null;
   // 优先选女声
-  for(var i=0;i<FEMALE_VOICES.length;i++){
-    var fv = pool.find(v=>v.name.indexOf(FEMALE_VOICES[i])>=0);
+  for(var i=0;i<FEMALE_NAMES.length;i++){
+    var fv = pool.find(v=>v.name.indexOf(FEMALE_NAMES[i])>=0);
     if(fv) return fv;
   }
-  return pool[0];
+  // 排除男声，选剩余的第一个
+  var nonMale = pool.find(v=>{ for(var j=0;j<MALE_NAMES.length;j++){ if(v.name.indexOf(MALE_NAMES[j])>=0) return false; } return true; });
+  return nonMale || pool[0];
 }
 function speak(text, opts){
   opts = opts||{};
@@ -349,7 +359,11 @@ function speakWord(w){
 let seqToken = 0;
 function playSeq(seq, i, token){
   if(token!==seqToken) return;          // 已被新的朗读取代，直接退出
-  if(i>=seq.length) return;
+  if(i>=seq.length){
+    // 序列播完，自动到下一题
+    if(settings.auto) speakingTimer = setTimeout(()=>nextWord(), 800);
+    return;
+  }
   let it=seq[i];
   if(it.t==='en') speak(it.text);
   else speakCN(it.text);
