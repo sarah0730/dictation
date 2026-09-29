@@ -244,7 +244,7 @@ select,input[type=number],input[type=range]{
           <label>每词朗读次数 <span class="range-val" id="repeat-val">3 遍</span></label>
           <input type="range" id="set-repeat" min="1" max="3" step="1" value="3" oninput="setRange('repeat',this.value,'repeat-val',' 遍')">
           <label>朗读间隔 <span class="range-val" id="interval-val">4 秒</span></label>
-          <input type="range" id="set-interval" min="2" max="8" step="1" value="4" oninput="setRange('interval',this.value,'interval-val',' 秒')">
+          <input type="range" id="set-interval" min="2" max="15" step="1" value="4" oninput="setRange('interval',this.value,'interval-val',' 秒')">
           <div id="lang-row">
             <label>发音</label>
             <div class="chips" id="lang-chips">
@@ -508,7 +508,9 @@ function playSeq(seq, i, token){
   let it=seq[i];
   if(it.t==='en') speak(it.text);
   else speakCN(it.text);
-  let wait = it.t==='cn'?1500:settings.interval*1000;
+  let baseInt = settings.interval * 1000;
+  if(curSubject==='cn') baseInt = Math.round(baseInt * 1.8);
+  let wait = it.t==='cn'?1500:baseInt;
   speakingTimer = setTimeout(()=>playSeq(seq,i+1,token), wait);
 }
 
@@ -654,7 +656,9 @@ function playCurrent(){
   let btn=document.getElementById('play-btn');
   btn.classList.add('playing');
   speakWord(w);
-  setTimeout(()=>btn.classList.remove('playing'), settings.repeat*settings.interval*1000);
+  var aniInt = settings.interval * 1000;
+  if(curSubject==='cn') aniInt = Math.round(aniInt * 1.8);
+  setTimeout(()=>btn.classList.remove('playing'), settings.repeat*aniInt);
 }
 function nextWord(){
   if(dictIdx<dictList.length-1){
