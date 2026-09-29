@@ -337,20 +337,24 @@ function speak(text, opts){
 }
 function speakWord(w){
   synth.cancel();
+  clearTimeout(speakingTimer);
+  seqToken++;
   let seq = [];
   for(let i=0;i<settings.repeat;i++){
     seq.push({t:'en',text:w.word});
     if(settings.cn) seq.push({t:'cn',text:w.meaning});
   }
-  playSeq(seq, 0);
+  playSeq(seq, 0, seqToken);
 }
-function playSeq(seq, i){
+let seqToken = 0;
+function playSeq(seq, i, token){
+  if(token!==seqToken) return;          // 已被新的朗读取代，直接退出
   if(i>=seq.length) return;
   let it=seq[i];
   if(it.t==='en') speak(it.text);
   else speakCN(it.text);
   let wait = it.t==='cn'?1500:settings.interval*1000;
-  speakingTimer = setTimeout(()=>playSeq(seq,i+1), wait);
+  speakingTimer = setTimeout(()=>playSeq(seq,i+1,token), wait);
 }
 function speakCN(text){
   synth.cancel();
@@ -548,13 +552,14 @@ function playCurrent(){
 function nextWord(){
   if(dictIdx<dictList.length-1){
     dictIdx++; showWord();
+    clearTimeout(speakingTimer);
     if(settings.auto) setTimeout(()=>playCurrent(),200);
   } else {
     endDictation(false);
   }
 }
 function prevWord(){
-  if(dictIdx>0){ dictIdx--; showWord(); if(settings.auto) setTimeout(()=>playCurrent(),200); }
+  if(dictIdx>0){ dictIdx--; showWord(); clearTimeout(speakingTimer); if(settings.auto) setTimeout(()=>playCurrent(),200); }
 }
 function endDictation(early){
   synth.cancel();
