@@ -179,9 +179,12 @@ select,input[type=number],input[type=range]{
       <input type="range" id="set-interval" min="2" max="8" step="1" value="4" oninput="setRange('interval',this.value,'interval-val',' 秒')">
       <label>发音</label>
       <div class="chips" id="lang-chips">
-        <div class="chip active" data-lang="en-GB">🇬🇧 英音</div>
-        <div class="chip" data-lang="en-US">🇺🇸 美音</div>
+        <div class="chip" data-lang="en-GB">🇬🇧 英音</div>
+        <div class="chip active" data-lang="en-US">🇺🇸 美音</div>
       </div>
+      <label>语音嗓音（点试听后选择）</label>
+      <div id="voice-list" style="max-height:180px;overflow-y:auto;border:1px solid #E8DFD3;border-radius:10px;padding:4px"></div>
+      <button class="btn btn-ghost btn-sm" style="margin-top:6px" onclick="loadVoiceList()">🔄 刷新声音列表</button>
       <div class="toggle-row">
         <span class="t-label">自动连播下一题</span>
         <div class="toggle on" id="set-auto" onclick="toggleSet('auto',this)"></div>
@@ -280,7 +283,7 @@ let curBook = S.lastBook || '2A';
 let curUnits = S.lastUnits || [];
 let curMode = 'four-priority';
 let curCount = 15;
-let curLang = S.lang || 'en-GB';
+let curLang = S.lang || 'en-US';
 let settings = S.settings || {cn:false, showCn:false, rate:0.8, repeat:3, interval:4, auto:true};
 let dictList = [];
 let dictIdx = 0;
@@ -337,13 +340,50 @@ function speak(text, opts){
   synth.cancel();
   let u = new SpeechSynthesisUtterance(text);
   let lang = opts.lang || curLang;
-  let v = pickVoice(lang);
-  if(v) u.voice=v;
-  u.lang = lang;
+  // 优先用用户手动选择的声音
+  let v = null;
+  if(S.voiceURI){
+    var all = synth.getVoices();
+    v = all.find(x=>x.voiceURI===S.voiceURI);
+  }
+  if(!v) v = pickVoice(lang);
+  if(v){ u.voice=v; u.lang=v.lang; }
+  else { u.lang = lang; }
   u.rate = opts.rate || settings.rate;
   u.pitch = 1;
   synth.speak(u);
   return u;
+}
+function loadVoiceList(){
+  var list = document.getElementById('voice-list');
+  if(!list) return;
+  var vs = synth.getVoices();
+  if(vs.length===0){ list.innerHTML='<div style="padding:8px;color:var(--muted)">声音列表尚未加载，请点"刷新"重试</div>'; return; }
+  // 只显示英语声音
+  var en = vs.filter(v=>/^en/i.test(v.lang));
+  if(en.length===0) en = vs;
+  var saved = S.voiceURI || '';
+  list.innerHTML = en.map(v=>{
+    var sel = v.voiceURI===saved ? ' background:var(--pri);color:#fff' : '';
+    return '<div style="padding:8px 10px;border-bottom:1px solid #F0EBE5;cursor:pointer;display:flex;justify-content:space-between;align-items:center'+sel+'" onclick="pickVoiceURI(\''+v.voiceURI.replace(/'/g,"\\'")+'\')">'
+      + '<span style="font-size:14px">'+v.name+'</span>'
+      + '<span style="font-size:12px;opacity:.6">'+v.lang+'</span>'
+      + '</div>';
+  }).join('');
+}
+function pickVoiceURI(uri){
+  S.voiceURI = uri;
+  saveState();
+  // 试听
+  synth.cancel();
+  var vs = synth.getVoices();
+  var v = vs.find(x=>x.voiceURI===uri);
+  var u = new SpeechSynthesisUtterance('Hello, this is a test.');
+  if(v) u.voice = v;
+  u.lang = v ? v.lang : 'en-US';
+  u.rate = settings.rate || 0.8;
+  synth.speak(u);
+  loadVoiceList();
 }
 function speakWord(w){
   synth.cancel();
@@ -389,7 +429,10 @@ function renderHome(){
     c.className='chip'+(b===curBook?' active':'');
     c.textContent=b;
     if(b==='2A'||b==='2B') c.style.fontWeight='700';
-    c.onclick=()=>{ curBook=b; curUnits=[]; renderHome(); saveState(); };
+    c.onclick=()=>{ curBook=b; curUnits=[]; renderHome();
+// 延迟加载声音列表（iOS需要时间）
+setTimeout(loadVoiceList, 500);
+setTimeout(loadVoiceList, 1500); saveState(); };
     bc.appendChild(c);
   });
   renderUnits();
@@ -576,6 +619,8 @@ function prevWord(){
   if(dictIdx>0){ dictIdx--; showWord(); clearTimeout(speakingTimer); if(settings.auto) setTimeout(()=>playCurrent(),200); }
 }
 function endDictation(early){
+  clearTimeout(speakingTimer);
+  seqToken++;
   synth.cancel();
   renderResult();
   go('result');
