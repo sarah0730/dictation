@@ -1,0 +1,1505 @@
+{
+ "三年级上册": [
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "山坡",
+   "pinyin": "shān pō"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "学校",
+   "pinyin": "xué xiào"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "飘扬",
+   "pinyin": "piāo yáng"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "课文",
+   "pinyin": "kè wén"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "声音",
+   "pinyin": "shēng yīn"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "招引",
+   "pinyin": "zhāo yǐn"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "热闹",
+   "pinyin": "rè nao"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "古老",
+   "pinyin": "gǔ lǎo"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "粗壮",
+   "pinyin": "cū zhuàng"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "枝干",
+   "pinyin": "zhī gàn"
+  },
+  {
+   "unit": "第1课",
+   "unitNum": 1,
+   "word": "洁白",
+   "pinyin": "jié bái"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "轰响",
+   "pinyin": "hōng xiǎng"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "阵雨",
+   "pinyin": "zhèn yǔ"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "湿润",
+   "pinyin": "shī rùn"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "风笛",
+   "pinyin": "fēng dí"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "狂欢",
+   "pinyin": "kuáng huān"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "觉得",
+   "pinyin": "jué de"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "功课",
+   "pinyin": "gōng kè"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "放学",
+   "pinyin": "fàng xué"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "老师",
+   "pinyin": "lǎo shī"
+  },
+  {
+   "unit": "第2课",
+   "unitNum": 2,
+   "word": "急急忙忙",
+   "pinyin": "jí jí máng máng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "秋风",
+   "pinyin": "qiū fēng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "放晴",
+   "pinyin": "fàng qíng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "明朗",
+   "pinyin": "míng lǎng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "地面",
+   "pinyin": "dì miàn"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "亮晶晶",
+   "pinyin": "liàng jīng jīng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "落叶",
+   "pinyin": "luò yè"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "图案",
+   "pinyin": "tú àn"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "闪闪发光",
+   "pinyin": "shǎn shǎn fā guāng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "尽头",
+   "pinyin": "jìn tóu"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "排列",
+   "pinyin": "pái liè"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "规则",
+   "pinyin": "guī zé"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "凌乱",
+   "pinyin": "líng luàn"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "歌唱",
+   "pinyin": "gē chàng"
+  },
+  {
+   "unit": "第5课",
+   "unitNum": 3,
+   "word": "迟到",
+   "pinyin": "chí dào"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "秋天",
+   "pinyin": "qiū tiān"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "清凉",
+   "pinyin": "qīng liáng"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "炎热",
+   "pinyin": "yán rè"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "枫树",
+   "pinyin": "fēng shù"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "邮票",
+   "pinyin": "yóu piào"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "凉爽",
+   "pinyin": "liáng shuǎng"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "果树",
+   "pinyin": "guǒ shù"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "菊花",
+   "pinyin": "jú huā"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "仙子",
+   "pinyin": "xiān zǐ"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "频频",
+   "pinyin": "pín pín"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "气味",
+   "pinyin": "qì wèi"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "香甜",
+   "pinyin": "xiāng tián"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "松果",
+   "pinyin": "sōng guǒ"
+  },
+  {
+   "unit": "第6课",
+   "unitNum": 4,
+   "word": "丰收",
+   "pinyin": "fēng shōu"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "门板",
+   "pinyin": "mén bǎn"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "准备",
+   "pinyin": "zhǔn bèi"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "旁边",
+   "pinyin": "páng biān"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "暴风雨",
+   "pinyin": "bào fēng yǔ"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "安心",
+   "pinyin": "ān xīn"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "低头",
+   "pinyin": "dī tóu"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "吃力",
+   "pinyin": "chī lì"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "再见",
+   "pinyin": "zài jiàn"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "母鸡",
+   "pinyin": "mǔ jī"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "注意",
+   "pinyin": "zhù yì"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "屋子",
+   "pinyin": "wū zi"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "漂亮",
+   "pinyin": "piào liang"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "意思",
+   "pinyin": "yì si"
+  },
+  {
+   "unit": "第8课",
+   "unitNum": 5,
+   "word": "因此",
+   "pinyin": "yīn cǐ"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "恒心",
+   "pinyin": "héng xīn"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "神圣",
+   "pinyin": "shén shèng"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "萌发",
+   "pinyin": "méng fā"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "妥当",
+   "pinyin": "tuǒ dang"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "车轴",
+   "pinyin": "chē zhóu"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "阁楼",
+   "pinyin": "gé lóu"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "培植",
+   "pinyin": "péi zhí"
+  },
+  {
+   "unit": "语文园地（一）",
+   "unitNum": 6,
+   "word": "厘米",
+   "pinyin": "lí mǐ"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "葫芦",
+   "pinyin": "hú lu"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "声明",
+   "pinyin": "shēng míng"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "神仙",
+   "pinyin": "shén xiān"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "普通",
+   "pinyin": "pǔ tōng"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "让步",
+   "pinyin": "ràng bù"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "条件",
+   "pinyin": "tiáo jiàn"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "指甲",
+   "pinyin": "zhǐ jia"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "得到",
+   "pinyin": "dé dào"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "衣服",
+   "pinyin": "yī fu"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "所以",
+   "pinyin": "suǒ yǐ"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "要是",
+   "pinyin": "yào shi"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "可怜",
+   "pinyin": "kě lián"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "最好",
+   "pinyin": "zuì hǎo"
+  },
+  {
+   "unit": "第11课",
+   "unitNum": 7,
+   "word": "科学",
+   "pinyin": "kē xué"
+  },
+  {
+   "unit": "第12课",
+   "unitNum": 8,
+   "word": "旅行",
+   "pinyin": "lǚ xíng"
+  },
+  {
+   "unit": "第12课",
+   "unitNum": 8,
+   "word": "要好",
+   "pinyin": "yào hǎo"
+  },
+  {
+   "unit": "第12课",
+   "unitNum": 8,
+   "word": "答应",
+   "pinyin": "dā ying"
+  },
+  {
+   "unit": "第12课",
+   "unitNum": 8,
+   "word": "做梦",
+   "pinyin": "zuò mèng"
+  },
+  {
+   "unit": "第12课",
+   "unitNum": 8,
+   "word": "来得及",
+   "pinyin": "lái de jí"
+  },
+  {
+   "unit": "第12课",
+   "unitNum": 8,
+   "word": "救命",
+   "pinyin": "jiù mìng"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "母亲",
+   "pinyin": "mǔ qīn"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "外祖父",
+   "pinyin": "wài zǔ fù"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "船夫",
+   "pinyin": "chuán fū"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "羽毛",
+   "pinyin": "yǔ máo"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "翠绿",
+   "pinyin": "cuì lǜ"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "静悄悄",
+   "pinyin": "jìng qiāo qiāo"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "翠鸟",
+   "pinyin": "cuì niǎo"
+  },
+  {
+   "unit": "第14课",
+   "unitNum": 9,
+   "word": "捕鱼",
+   "pinyin": "bǔ yú"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "草地",
+   "pinyin": "cǎo dì"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "蒲公英",
+   "pinyin": "pú gōng yīng"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "盛开",
+   "pinyin": "shèng kāi"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "玩耍",
+   "pinyin": "wán shuǎ"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "一本正经",
+   "pinyin": "yī běn zhèng jīng"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "使劲",
+   "pinyin": "shǐ jìn"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "钓鱼",
+   "pinyin": "diào yú"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "观察",
+   "pinyin": "guān chá"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "合拢",
+   "pinyin": "hé lǒng"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "张开",
+   "pinyin": "zhāng kāi"
+  },
+  {
+   "unit": "第15课",
+   "unitNum": 10,
+   "word": "喜爱",
+   "pinyin": "xǐ ài"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "风景",
+   "pinyin": "fēng jǐng"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "优美",
+   "pinyin": "yōu měi"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "物产",
+   "pinyin": "wù chǎn"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "交错",
+   "pinyin": "jiāo cuò"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "岩石",
+   "pinyin": "yán shí"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "鹿角",
+   "pinyin": "lù jiǎo"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "成群结队",
+   "pinyin": "chéng qún jié duì"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "布满",
+   "pinyin": "bù mǎn"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "条纹",
+   "pinyin": "tiáo wén"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "周身",
+   "pinyin": "zhōu shēn"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "皮球",
+   "pinyin": "pí qiú"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "茂密",
+   "pinyin": "mào mì"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "肥料",
+   "pinyin": "féi liào"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "祖国",
+   "pinyin": "zǔ guó"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "事业",
+   "pinyin": "shì yè"
+  },
+  {
+   "unit": "第16课",
+   "unitNum": 11,
+   "word": "发展",
+   "pinyin": "fā zhǎn"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "海滨",
+   "pinyin": "hǎi bīn"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "街道",
+   "pinyin": "jiē dào"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "交界",
+   "pinyin": "jiāo jiè"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "水平线",
+   "pinyin": "shuǐ píng xiàn"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "机帆船",
+   "pinyin": "jī fān chuán"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "来来往往",
+   "pinyin": "lái lái wǎng wǎng"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "朝阳",
+   "pinyin": "zhāo yáng"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "渔民",
+   "pinyin": "yú mín"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "贝壳",
+   "pinyin": "bèi ké"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "理睬",
+   "pinyin": "lǐ cǎi"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "汽笛",
+   "pinyin": "qì dí"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "出海",
+   "pinyin": "chū hǎi"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "银光闪闪",
+   "pinyin": "yín guāng shǎn shǎn"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "庭院",
+   "pinyin": "tíng yuàn"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "散发",
+   "pinyin": "sàn fā"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "打扫",
+   "pinyin": "dǎ sǎo"
+  },
+  {
+   "unit": "第17课",
+   "unitNum": 12,
+   "word": "干净",
+   "pinyin": "gān jìng"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "东北",
+   "pinyin": "dōng běi"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "密密层层",
+   "pinyin": "mì mì céng céng"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "严严实实",
+   "pinyin": "yán yán shí shí"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "视线",
+   "pinyin": "shì xiàn"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "山谷",
+   "pinyin": "shān gǔ"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "起来",
+   "pinyin": "qǐ lái"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "照射",
+   "pinyin": "zhào shè"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "各种各样",
+   "pinyin": "gè zhǒng gè yàng"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "花坛",
+   "pinyin": "huā tán"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "显得",
+   "pinyin": "xiǎn de"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "苍翠",
+   "pinyin": "cāng cuì"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "药材",
+   "pinyin": "yào cái"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "捕捉",
+   "pinyin": "bǔ zhuō"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "野兔",
+   "pinyin": "yě tù"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "景色",
+   "pinyin": "jǐng sè"
+  },
+  {
+   "unit": "第18课",
+   "unitNum": 13,
+   "word": "宝库",
+   "pinyin": "bǎo kù"
+  },
+  {
+   "unit": "第21课",
+   "unitNum": 14,
+   "word": "大自然",
+   "pinyin": "dà zì rán"
+  },
+  {
+   "unit": "第21课",
+   "unitNum": 14,
+   "word": "美妙",
+   "pinyin": "měi miào"
+  },
+  {
+   "unit": "第21课",
+   "unitNum": 14,
+   "word": "音乐家",
+   "pinyin": "yīn yuè jiā"
+  },
+  {
+   "unit": "第21课",
+   "unitNum": 14,
+   "word": "手风琴",
+   "pinyin": "shǒu fēng qín"
+  },
+  {
+   "unit": "第21课",
+   "unitNum": 14,
+   "word": "歌手",
+   "pinyin": "gē shǒu"
+  },
+  {
+   "unit": "第21课",
+   "unitNum": 14,
+   "word": "感受",
+   "pinyin": "gǎn shòu"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "温柔",
+   "pinyin": "wēn róu"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "合奏",
+   "pinyin": "hé zòu"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "充满",
+   "pinyin": "chōng mǎn"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "威力",
+   "pinyin": "wēi lì"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "乐器",
+   "pinyin": "yuè qì"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "屋顶",
+   "pinyin": "wū dǐng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "河流",
+   "pinyin": "hé liú"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "轻快",
+   "pinyin": "qīng kuài"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "合唱",
+   "pinyin": "hé chàng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "水塘",
+   "pinyin": "shuǐ táng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "昆虫",
+   "pinyin": "kūn chóng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "万物",
+   "pinyin": "wàn wù"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "沉思",
+   "pinyin": "chén sī"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "搬家",
+   "pinyin": "bān jiā"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "井然有序",
+   "pinyin": "jǐng rán yǒu xù"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "精神",
+   "pinyin": "jīng shén"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "植物",
+   "pinyin": "zhí wù"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "千姿百态",
+   "pinyin": "qiān zī bǎi tài"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "鲜美",
+   "pinyin": "xiān měi"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "池塘",
+   "pinyin": "chí táng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "秋高气爽",
+   "pinyin": "qiū gāo qì shuǎng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "倒映",
+   "pinyin": "dào yìng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "游玩",
+   "pinyin": "yóu wán"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "画册",
+   "pinyin": "huà cè"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "无穷",
+   "pinyin": "wú qióng"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "奥秘",
+   "pinyin": "ào mì"
+  },
+  {
+   "unit": "第22课",
+   "unitNum": 15,
+   "word": "无尽",
+   "pinyin": "wú jìn"
+  },
+  {
+   "unit": "语文园地（二）",
+   "unitNum": 16,
+   "word": "田螺",
+   "pinyin": "tián luó"
+  },
+  {
+   "unit": "语文园地（二）",
+   "unitNum": 16,
+   "word": "螃蟹",
+   "pinyin": "páng xiè"
+  },
+  {
+   "unit": "语文园地（二）",
+   "unitNum": 16,
+   "word": "鲤鱼",
+   "pinyin": "lǐ yú"
+  },
+  {
+   "unit": "语文园地（二）",
+   "unitNum": 16,
+   "word": "鲫鱼",
+   "pinyin": "jì yú"
+  },
+  {
+   "unit": "语文园地（二）",
+   "unitNum": 16,
+   "word": "鲨鱼",
+   "pinyin": "shā yú"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "生物",
+   "pinyin": "shēng wù"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "从事",
+   "pinyin": "cóng shì"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "成就",
+   "pinyin": "chéng jiù"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "学期",
+   "pinyin": "xué qī"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "考试",
+   "pinyin": "kǎo shì"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "平均",
+   "pinyin": "píng jūn"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "再三",
+   "pinyin": "zài sān"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "同意",
+   "pinyin": "tóng yì"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "难得",
+   "pinyin": "nán dé"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "值班",
+   "pinyin": "zhí bān"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "努力",
+   "pinyin": "nǔ lì"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "满分",
+   "pinyin": "mǎn fēn"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "国家",
+   "pinyin": "guó jiā"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "地位",
+   "pinyin": "dì wèi"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "环节",
+   "pinyin": "huán jié"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "难度",
+   "pinyin": "nán dù"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "刻苦",
+   "pinyin": "kè kǔ"
+  },
+  {
+   "unit": "第24课",
+   "unitNum": 17,
+   "word": "兴奋",
+   "pinyin": "xīng fèn"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "手术台",
+   "pinyin": "shǒu shù tái"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "阵地",
+   "pinyin": "zhèn dì"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "战斗",
+   "pinyin": "zhàn dòu"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "打响",
+   "pinyin": "dǎ xiǎng"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "当头一棒",
+   "pinyin": "dāng tóu yī bàng"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "伤员",
+   "pinyin": "shāng yuán"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "陆续",
+   "pinyin": "lù xù"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "血丝",
+   "pinyin": "xuè sī"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "匆匆",
+   "pinyin": "cōng cōng"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "医生",
+   "pinyin": "yī shēng"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "转告",
+   "pinyin": "zhuǎn gào"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "赶忙",
+   "pinyin": "gǎn máng"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "迅速",
+   "pinyin": "xùn sù"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "争分夺秒",
+   "pinyin": "zhēng fēn duó miǎo"
+  },
+  {
+   "unit": "第25课",
+   "unitNum": 18,
+   "word": "连续",
+   "pinyin": "lián xù"
+  },
+  {
+   "unit": "语文园地（三）",
+   "unitNum": 19,
+   "word": "怒目圆睁",
+   "pinyin": "nù mù yuán zhēng"
+  },
+  {
+   "unit": "语文园地（三）",
+   "unitNum": 19,
+   "word": "眨眼",
+   "pinyin": "zhǎ yǎn"
+  },
+  {
+   "unit": "语文园地（三）",
+   "unitNum": 19,
+   "word": "眼眶",
+   "pinyin": "yǎn kuàng"
+  },
+  {
+   "unit": "语文园地（三）",
+   "unitNum": 19,
+   "word": "目瞪口呆",
+   "pinyin": "mù dèng kǒu dāi"
+  },
+  {
+   "unit": "语文园地（三）",
+   "unitNum": 19,
+   "word": "耳闻目睹",
+   "pinyin": "ěr wén mù dǔ"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "大吃一惊",
+   "pinyin": "dà chī yī jīng"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "尾巴",
+   "pinyin": "wěi ba"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "牙齿",
+   "pinyin": "yá chǐ"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "肚皮",
+   "pinyin": "dù pí"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "食物",
+   "pinyin": "shí wù"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "消化",
+   "pinyin": "xiāo huà"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "当然",
+   "pinyin": "dāng rán"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "刚才",
+   "pinyin": "gāng cái"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "知觉",
+   "pinyin": "zhī jué"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "光亮",
+   "pinyin": "guāng liàng"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "申请",
+   "pinyin": "shēn qǐng"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "介绍",
+   "pinyin": "jiè shào"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "主旨",
+   "pinyin": "zhǔ zhǐ"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "占领",
+   "pinyin": "zhàn lǐng"
+  },
+  {
+   "unit": "语文园地（四）",
+   "unitNum": 20,
+   "word": "乏力",
+   "pinyin": "fá lì"
+  }
+ ],
+ "三年级下册": []
+}
